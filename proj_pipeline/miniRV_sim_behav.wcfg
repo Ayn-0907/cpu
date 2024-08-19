@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="miniRV_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="miniRV_sim" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="629573235001fs"></ZoomEndTime>
+      <Cursor1Time time="292911617000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/miniRV_sim/fpga_rst" type="logic">
+      <obj_property name="ElementShortName">fpga_rst</obj_property>
+      <obj_property name="ObjectShortName">fpga_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/fpga_clk" type="logic">
+      <obj_property name="ElementShortName">fpga_clk</obj_property>
+      <obj_property name="ObjectShortName">fpga_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/rR1" type="array">
+      <obj_property name="ElementShortName">rR1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rR1[4:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/rD1" type="array">
+      <obj_property name="ElementShortName">rD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rD1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/rR2" type="array">
+      <obj_property name="ElementShortName">rR2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rR2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/rD2" type="array">
+      <obj_property name="ElementShortName">rD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rD2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/wR" type="array">
+      <obj_property name="ElementShortName">wR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/wD" type="array">
+      <obj_property name="ElementShortName">wD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Core_cpu/U_RF/regs" type="array">
+      <obj_property name="ElementShortName">regs[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Mem_IROM/a" type="array">
+      <obj_property name="ElementShortName">a[13:0]</obj_property>
+      <obj_property name="ObjectShortName">a[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/Mem_IROM/spo" type="array">
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/miniRV_sim/DUT/rdata_from_sw" type="array">
+      <obj_property name="ElementShortName">rdata_from_sw[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata_from_sw[31:0]</obj_property>
+   </wvobject>
+</wave_config>
